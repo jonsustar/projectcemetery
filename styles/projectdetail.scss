@@ -1,0 +1,114 @@
+@import "./common.scss";
+.project-container {
+  margin-top: 32px;
+
+  header {
+    margin-bottom: 16px;
+    .post-date {
+      font-size: 14px;
+      color: #585858;
+    }
+  }
+
+  h1 {
+    font-size: 28px;
+
+    small {
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+
+  .content {
+    margin-top: 30px;
+    line-height: 25px;
+    
+    h2 {
+      margin: 24px 0 8px;
+      font-weight: normal;
+      line-height: 36px;
+    }
+
+    h3 {
+      margin: 12px 0;
+      line-height: 28px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 18px;
+
+      & > li::before {
+        content: "–"; /* en dash here */
+        position: absolute;
+        margin-left: -1.1em;
+      }
+    }
+
+    pre, code {
+      font-size: 14px;
+    }
+  }
+
+  .back-link {
+    margin: 16px 0 24px 0;
+
+    a {
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      background: #228B22;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+
+      &:hover {
+        text-decoration: none;
+        color: lightgray;
+      }
+    }
+  }
+
+  // Select all text wrapped in `` in markdown - generated a `code` tag without a language class
+  code:not([class*="language-"]) {
+    padding: 0.2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+  }
+}
+
+div.epitaph {
+  text-align: center;
+  font-style: italic;
+}
+
+div.footer {
+  h4 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }  
+
+  span.name {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  a {
+    border: 1px dotted gray;
+    padding: 3px 5px;
+    margin-right: 3px;
+    font-size: 11px;
+    border-radius: 3px;
+  }
+}
+
+div.footer span.owner {
+  font-size: 16px;
+  font-weight: bold;
+}

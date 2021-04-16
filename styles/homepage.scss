@@ -1,0 +1,59 @@
+@import "./common.scss";
+
+body {
+  background: #76d576;
+  text-align: center;
+  padding: 0 20px;
+}
+
+div#content {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+div#cemetery {
+  margin-top: 20px;
+
+  div {
+    display: inline-block;
+    padding: 20px 15px 30px 15px;
+    margin: 10px 5px;
+    border-radius: 15px 15px 0 0;
+    border-width: 3px 2px 1px 4px;
+    border-color: gray gray green gray;
+    border-style: solid solid dotted solid;
+    min-width: 60px;
+    text-align: center;
+    background: #A0A0A0;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #DCDCDC;
+      font-family: "Garamond";
+      font-size: 20px;
+      //text-shadow: -1px -1px 0 #B8B8B8;
+
+      &:hover {
+        color: gray;
+      }
+    }
+
+    p {
+      max-width: 130px;
+      margin: auto;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #C8C8C8;
+    }
+  }
+}

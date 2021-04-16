@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Where good (or bad) ideas, projects, and startups go to die. Rest in peace." />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./styles/homepage.css" />
+  </head>
+  <body>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="cemetery">
+      {% for project in collections.projects %}
+        <div>
+          <a href="{{ project.url }}">{{ project.data.title }}</a>
+          {% if project.data.epitaph %}<p>{{ project.data.epitaph }}</p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

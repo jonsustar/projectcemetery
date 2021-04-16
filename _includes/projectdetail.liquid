@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="More information on {{ title }}... {% if epitaph %}{{ epitaph }}{% endif %}" />
+    <title>{{ title }} | Project Cemetery</title>
+    <link rel="stylesheet" href="../../styles/projectdetail.css" />
+  </head>
+  <body>
+    <div class="container project-container">
+      <header>
+        <h1>
+          {% if live_url %}
+            <a href="{{ live_url }}">{{ title }}</a>
+          {% else %}
+            {{ title }}
+          {% endif %}
+          {% if birth_year or death_year %}
+            <small>
+            {% if birth_year %}{{ birth_year }}{% endif %}
+            {% if death_year %}
+              {% if birth_year %} - {% endif %}{{ death_year }}
+            {% endif %}
+            </small>
+          {% endif %}
+        </h1>
+      </header>
+      <div class="content">
+      </div>
+      {% if epitaph %}<div class="content epitaph">{{ epitaph }}</div>{% endif %}
+      <div class="content">{{ content }}</div>
+      <div class="content footer">
+        <h4>Project Contributors:</h4>
+        <ul>
+        {% for contributor in contributors %}
+          <li>
+            <span class="name">{{ contributor.name }}</span>
+            {% if contributor.website %}<a href="{{ contributor.website }}" class="website">website</a>{% endif %}
+            {% if contributor.github %}<a href="https://github.com/{{ contributor.github }}" class="github">github</a>{% endif %}
+            {% if contributor.twitter %}<a href="https://twitter.com/{{ contributor.twitter }}" class="twitter">twitter</a>{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="back-link">
+        <a href="/">← Back to Cemetery</a>
+      </div>
+    </div>
+  </body>
+</html>
