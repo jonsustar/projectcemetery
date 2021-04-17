@@ -15,3 +15,5 @@ My first Twitter bot. She would reply to folks who used commonly-misspelled word
 Only later did I realize that perhaps I had entered into "troll" territory. But it was fun to have an automated python script provoke replies from real human beings. It also allowed me to play around with building a grammar engine that could build out sentences or responses.
 
 This was the first of quite a few Twitter bots of mine from that era...
+
+![StellerSpeller Screenshot](/images/stellerspeller_screenshot.png)
