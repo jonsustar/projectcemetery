@@ -18,3 +18,5 @@ Imagine the early 2000s. You search for lyrics to your favorite song, and you ar
 Anyway, the goal of this site was to collect all of the lyrics for all of the songs and present them in a nice, easy-to-read format. But it never saw the light of day...
 
 It even had a cute lemur mascot too!
+
+![LyricLemur Logo](/images/lyriclemur_logo.png)
