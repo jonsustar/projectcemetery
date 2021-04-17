@@ -1,6 +1,7 @@
 ---
 layout: homepage.liquid
 title: Project Cemetery
+description: Where good (or bad) ideas, projects, and startups go to die. This website provides an eternal resting place for those projects.
 ---
 # Project Cemetery 
 

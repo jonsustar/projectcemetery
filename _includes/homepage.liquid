@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Where good (or bad) ideas, projects, and startups go to die. Rest in peace." />
+    <meta name="Description" content="{{ description }}" />
     <title>{{ title }}</title>
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="https://projectcemetery.com/assets/images/social.jpg">
+    <meta property="og:url" content="https://projectcemetery.com/">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://projectcemetery.com/assets/images/social.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="./styles/homepage.css" />
   </head>
   <body>

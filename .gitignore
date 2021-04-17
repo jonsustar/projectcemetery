@@ -4,4 +4,4 @@ node_modules
 # eleventy output
 _site
 
-*/.DS_Store
+*.DS_Store

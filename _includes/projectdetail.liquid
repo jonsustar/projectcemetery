@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="More information on {{ title }}... {% if epitaph %}{{ epitaph }}{% endif %}" />
+    <meta name="Description" content="{% if birth_year and death_year %}{{ birth_year }} - {{ death_year }}{% endif %}{% if epitaph %}{% if birth_year and death_year %}; {% endif %}{{ epitaph }}{% endif %}" />
     <title>{{ title }} | Project Cemetery</title>
+    <meta property="og:title" content="{{ title }} | Project Cemetery">
+    <meta property="og:description" content="{% if birth_year and death_year %}{{ birth_year }} - {{ death_year }}{% endif %}{% if epitaph %}{% if birth_year and death_year %}; {% endif %}{{ epitaph }}{% endif %}">
+    <meta name="twitter:title" content="{{ title }} | Project Cemetery">
+    <meta name="twitter:description" content="{% if birth_year and death_year %}{{ birth_year }} - {{ death_year }}{% endif %}{% if epitaph %}{% if birth_year and death_year %}; {% endif %}{{ epitaph }}{% endif %}">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="../../styles/projectdetail.css" />
   </head>
   <body>
