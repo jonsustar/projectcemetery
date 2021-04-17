@@ -10,8 +10,14 @@ contributors:
     twitter: jonsustar
     website: 
 ---
-I stumbled upon a great data set of word pronunciations, and I realized that I could determine words that rhyme with one another. Coupled together with giant data dumps of text (Amazon reviews, Yelp reviews, recipes, every speech of President Obama's, you name it), I generated poems, automatically overlayed them on some nice stock photos, and posted them to Instagram under the pseudonym "Otto Birch".
+I stumbled upon a great data set of word pronunciations, and I realized that I could determine words that rhyme with one another. Coupled together with giant data dumps of text (Amazon reviews, Yelp reviews, recipes, every speech of President Obama's, you name it), I generated poems, automatically overlayed them on some nice stock photos, and posted them to [Instagram](https://instagram.com/ottobirchpoetry) under the pseudonym "Otto Birch".
 
-I never revealed that it was a computer that generated these poems, and so it was fun collecting a following on Instagram... of humans.
+I never revealed that it was a computer that generated these poems (I guess until now?), and so it was fun collecting a following on Instagram... of humans.
 
-I even published an ebook, which gave me some insight into the publishing world. But sadly, after making roughly $5 from that ebook, Otto Birch retired.
+I even [published an ebook](https://www.amazon.com/Unexpected-Poetry-Otto-Birch-ebook/dp/B07XNLXLVZ), which gave me some insight into the publishing world. But sadly, after making roughly $5 from that ebook, Otto Birch retired.
+
+![](/images/ottobirch_1.png)
+![](/images/ottobirch_2.png)
+![](/images/ottobirch_3.png)
+![](/images/ottobirch_4.png)
+![](/images/ottobirch_5.png)
