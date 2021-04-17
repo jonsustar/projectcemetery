@@ -40,3 +40,13 @@ Some further notes on the above fields:
   - `github`: Their Github username (without the @ prefix).
   - `twitter`: Their Twitter username (without the @ prefix).
   - `website`: The full URL to their personal or company website, including the `https://`. 
+
+### Images
+
+You can include images or screenshots that help explain your deceased project within your description. You can upload those images to `/images` in your branch, and include that in your pull request. *Please* prefix your images using the same filename of your project file. For example, the LyricLemur image is named `lyriclemur_logo.png` because its project file is named `lyriclemur.md`.
+
+To reference the image within your description, it uses the usual markdown:
+
+```
+![Description of Image, or leave blank](/images/whatever.png)
+```

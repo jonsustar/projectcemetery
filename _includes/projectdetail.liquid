@@ -44,6 +44,17 @@
         {% endfor %}
         </ul>
       </div>
+      {% assign previous_project = collections.projects | getPreviousCollectionItem: page %}
+      {% assign next_project = collections.projects | getNextCollectionItem: page %}
+      
+      <div class="next-links">
+      {% if previous_project %}
+        <a class="previous" href="{{ previous_project.url }}"><span class="label">Previous Project:</span><br/>{{ previous_project.data.title }}</a>
+      {% endif %}
+      {% if next_project %}
+        <a class="next" href="{{ next_project.url }}"><span class="label">Next Project:</span><br/>{{ next_project.data.title }}</a>
+      {% endif %}
+      </div>
       <div class="back-link">
         <a href="/">← Back to Cemetery</a>
       </div>

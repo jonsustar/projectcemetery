@@ -14,8 +14,9 @@
     </div>
     <div id="cemetery">
       {% for project in collections.projects %}
-        <div>
+        <div class="{% cycle "background": "b1", "b2", "b3", "b4", "b5", "b6", "b7" %} {% cycle "corner": "c1", "c2", "c3", "c4", "c5" %} {% cycle "size": "s1", "s2", "s3", "s4" %}">
           <a href="{{ project.url }}">{{ project.data.title }}</a>
+          {% if project.data.birth_year and project.data.death_year %}<p class="year">{{ project.data.birth_year }} - {{ project.data.death_year }}</p>{% endif %}
           {% if project.data.epitaph %}<p>{{ project.data.epitaph }}</p>{% endif %}
         </div>
       {% endfor %}
