@@ -26,7 +26,7 @@ div#cemetery {
 
   div {
     display: inline-block;
-    padding: 20px 15px 30px 15px;
+    padding: 20px 10px 30px 10px;
     margin: 20px 3px 0 3px;
     border-radius: 15px 15px 0 0;
     border-width: 3px 2px 1px 4px;
@@ -104,6 +104,7 @@ div#cemetery {
 
   .c1 {
     border-radius: 15px 15px 0 0;
+    padding-top: 30px;
   }
   
   .c2 {
@@ -112,37 +113,40 @@ div#cemetery {
 
   .c3 {
     border-radius: 11px 11px 0 0;
+    padding-top: 10px;
   }
 
   .c4 {
-    border-radius: 7px 7px 0 0;
+    border-radius: 35px 35px 0 0;
+    padding-top: 25px;
   }
 
   .c5 {
     border-radius: 2px 2px 0 0;
+    padding-top: 8px;
   }
 
   .s1 {
-    a {
-      font-size: 20px;
-    }
-  }
-
-  .s2 {
-    a {
-      font-size: 16px;
-    }
-  }
-
-  .s3 {
     a {
       font-size: 18px;
     }
   }
 
+  .s2 {
+    a {
+      font-size: 17px;
+    }
+  }
+
+  .s3 {
+    a {
+      font-size: 16px;
+    }
+  }
+
   .s4 {
     a {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 }
