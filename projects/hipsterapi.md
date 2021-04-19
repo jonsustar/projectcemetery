@@ -16,4 +16,4 @@ To use the Hipster API, you'd send your request via postcard, and then you'd get
 
 I'm sorry to the two people on this earth that sent postcards. (I believe one was from France!)
 
-![HipsterAPI Screenshot](/images/hipsterapi_screenshot.png)
+![HipsterAPI Screenshot](/images/hipsterapi_screenshot.jpg)

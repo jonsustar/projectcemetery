@@ -16,8 +16,8 @@ I never revealed that it was a computer that generated these poems (I guess unti
 
 I even [published an ebook](https://www.amazon.com/Unexpected-Poetry-Otto-Birch-ebook/dp/B07XNLXLVZ), which gave me some insight into the publishing world. But sadly, after making roughly $5 from that ebook, Otto Birch retired.
 
-![](/images/ottobirch_1.png)
-![](/images/ottobirch_2.png)
-![](/images/ottobirch_3.png)
-![](/images/ottobirch_4.png)
-![](/images/ottobirch_5.png)
+![](/images/ottobirch_1.jpg)
+![](/images/ottobirch_2.jpg)
+![](/images/ottobirch_3.jpg)
+![](/images/ottobirch_4.jpg)
+![](/images/ottobirch_5.jpg)
