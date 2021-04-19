@@ -3,7 +3,7 @@ title: StellerSpeller
 live_url: https://twitter.com/stellerspeller
 epitaph: Once a troll, always a troll.
 birth_year: 2009
-death_year: 2010
+death_year: 2012
 contributors:
   - name: Jon Sustar
     github: jonsustar
