@@ -2,6 +2,8 @@
 
 First of all, our condolences to your project. I know you had the best of intentions. Some projects were just meant to never see the light of day.
 
+This repo collects projects to be displayed on the headstones at [projectcemetery.com](https://projectcemetery.com), which strives to provide a place to mourn our own losses and be inspired by others' failures.
+
 ## Submit your project
 
 You can easily bury your own project to this cemetery. You just need to add a file and create a pull request.
