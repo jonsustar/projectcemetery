@@ -7,4 +7,4 @@ description: Where good (or bad) ideas, projects, and startups go to die. This w
 
 A peaceful resting place to say goodbye to the websites and ideas and startups of yesterday. Submit your own projects and forever have a place on the internet to pay your respects.
 
-To add your own, submit a [pull request](https://github.com/jonsustar/projectcemetery).
+To add your own, submit a [pull request](https://github.com/jonsustar/projectcemetery). Or if you're lazy, you can just [fill out this form](https://forms.gle/UBUYNrQSpr6srX8z7) and I'll do it for you.
