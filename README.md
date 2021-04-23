@@ -8,6 +8,8 @@ This repo collects projects to be displayed on the headstones at [projectcemeter
 
 You can easily bury your own project to this cemetery. You just need to add a file and create a pull request.
 
+(Or if you don't feel like making a PR, you can also just fill out this form: https://forms.gle/UBUYNrQSpr6srX8z7)
+
 Create the new file by clicking this link: https://github.com/jonsustar/projectcemetery/new/main/projects
 
 Please name the file using only alphanumeric characters and hyphens. The extension should be `.md`.
